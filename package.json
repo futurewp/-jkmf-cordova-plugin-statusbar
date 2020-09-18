@@ -63,7 +63,7 @@
     "cordova-windows"
   ],
   "license": "Apache-2.0",
-  "name": "cordova-plugin-jkmf-statusbar",
+  "name": "cordova-plugin-statusbar",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurewp/cordova-plugin-statusbar.git"
