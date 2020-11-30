@@ -1,18 +1,19 @@
 {
-  "_from": "cordova-plugin-statusbar@2.4.3",
+  "_from": "cordova-plugin-statusbar@^2.4.3",
+  "_id": "cordova-plugin-statusbar@2.4.3",
   "_inBundle": false,
   "_integrity": "sha512-ThmXzl6QIKWFXf4wWw7Q/zpB+VKkz3VM958+5A0sXD4jmR++u7KnGttLksXshVwWr6lvGwUebLYtIyXwS4Ovcg==",
   "_location": "/cordova-plugin-statusbar",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-statusbar@2.4.3",
+    "raw": "cordova-plugin-statusbar@^2.4.3",
     "name": "cordova-plugin-statusbar",
     "escapedName": "cordova-plugin-statusbar",
-    "rawSpec": "2.4.3",
+    "rawSpec": "^2.4.3",
     "saveSpec": null,
-    "fetchSpec": "2.4.3"
+    "fetchSpec": "^2.4.3"
   },
   "_requiredBy": [
     "#USER",
@@ -20,12 +21,15 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.4.3.tgz",
   "_shasum": "cc557aef66c27484e0f7f045004040d03321f82d",
-  "_spec": "cordova-plugin-statusbar@2.4.3",
+  "_spec": "cordova-plugin-statusbar@^2.4.3",
   "_where": "D:\\androidwxkt",
-  "author": "Apache Software Foundation",
-  "bugs": {
-    "url": "https://github.com/futurewp/cordova-plugin-statusbar/issues"
+  "author": {
+    "name": "Apache Software Foundation"
   },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-statusbar/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-statusbar",
     "platforms": [
@@ -51,7 +55,7 @@
       }
     }
   },
-  "homepage": "https://github.com/futurewp/cordova-plugin-statusbar#readme",
+  "homepage": "https://github.com/apache/cordova-plugin-statusbar#readme",
   "keywords": [
     "cordova",
     "statusbar",
@@ -66,16 +70,12 @@
   "name": "cordova-plugin-statusbar",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/futurewp/cordova-plugin-statusbar.git"
+    "url": "git+https://github.com/apache/cordova-plugin-statusbar.git"
   },
   "scripts": {
     "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
     "test": "npm run jshint"
   },
   "types": "./types/index.d.ts",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  }
+  "version": "2.4.3"
 }
